@@ -50,7 +50,7 @@
             <kind>1</kind>
             <string>draw_set_valign(fa_top);
 draw_set_halign(fa_left);
-draw_set_colour(c_orange);
+draw_set_colour(c_white);
 draw_set_font(fnt_small);
 draw_text_transformed(56,64, global.points, 2,2,0)
 </string>
