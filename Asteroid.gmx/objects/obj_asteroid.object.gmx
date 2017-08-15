@@ -25,9 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
-image_index = irandom(2);
-direction = irandom(360);
+            <string>while(distance_to_object(obj_player) &lt; 100){
+
+    x = random(room_width);
+    y = random(room_height);
+
+}
+
+image_speed = 0;
+image_index = random(2);
+direction = random(360);
 speed = 0.5 + random(2);
 </string>
           </argument>
