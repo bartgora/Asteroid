@@ -136,6 +136,7 @@ speed = 0.5 + random(2);
           <argument>
             <kind>1</kind>
             <string>global.points = global.points + 50;
+audio_play_sound(snd_explosion, 0, false);
 </string>
           </argument>
         </arguments>
