@@ -180,10 +180,12 @@ if(speed &gt; 2) speed = 2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bullet = instance_create(x,y,obj_bullet)
-bullet.speed = 15;
-bullet.direction = image_angle;
-audio_play_sound(snd_laser, 0, false);
+            <string>    bullet = instance_create(x,y,obj_bullet)
+    bullet.speed = 15;
+    bullet.direction = image_angle;
+    audio_play_sound(snd_laser, 0, false);
+    cooldown = true;
+    alarm[0] = 10;
 </string>
           </argument>
         </arguments>
